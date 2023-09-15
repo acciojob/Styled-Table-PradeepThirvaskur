@@ -1,1 +1,32 @@
 /* your code */
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #333;
+    
+    font-size: 13px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(2, 3, 0, 0);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  } 
+
+table th {
+  background-color: darkblue;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+}
+table tr:nth-child(odd) td {
+  background-color: #f2f2f2;
+}
+
+
